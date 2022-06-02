@@ -1,0 +1,35 @@
+body {
+    font-family: 'oswald', sans-serif;
+}
+
+.fuente-principal {
+    font-weight: map-get($fuentes, regular);
+}
+
+.fuente-titulos {
+    font-weight: map-get($fuentes, semi-bold);
+}
+
+.fuente-titulos-bold {
+    font-weight: map-get($fuentes, bold);
+}
+
+.color-blanco {
+    color: map-get($colores, blanco);
+}
+
+.color-fondo {
+    color: map-get($colores, fondo);
+}
+
+.color-botones {
+    color: map-get($colores, botones);
+}
+
+.color-hover {
+    color: map-get($colores, hover);
+}
+
+.color-botones2 {
+    color: map-get($colores, botones2);
+}

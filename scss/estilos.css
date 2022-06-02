@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Lora:ital,wght@0,500;1,400&family=Mochiy+Pop+P+One&family=Montserrat:wght@200&family=Oswald:wght@200;300;400;500;600;700&family=Quicksand&family=Roboto:wght@100&family=Source+Sans+Pro&display=swap");
+body {
+  font-family: 'oswald', sans-serif;
+}
+
+.fuente-principal {
+  font-weight: 400;
+}
+
+.fuente-titulos {
+  font-weight: 600;
+}
+
+.fuente-titulos-bold {
+  font-weight: 700;
+}
+
+.color-blanco {
+  color: #FFFFFF;
+}
+
+.color-fondo {
+  color: #2E2E30;
+}
+
+.color-botones {
+  color: #0666C7;
+}
+
+.color-hover {
+  color: #0A233D;
+}
+
+.color-botones2 {
+  color: #0D4C8A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2E2E30;
+}
+
+/*-------------------index.html-----------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------*/
+.container-fluid {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#032C55), to(black));
+  background-image: linear-gradient(#032C55, black);
+}
+
+.container-fluid img {
+  height: 70px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.carousel-item img {
+  height: 480px;
+  width: 100%;
+  opacity: 70%;
+}
+
+.carousel-item .fuente-titulos-bold {
+  font-size: 3rem;
+}
+
+.carousel-item p {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=estilos.css.map */
