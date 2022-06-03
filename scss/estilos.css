@@ -35,6 +35,10 @@ body {
   color: #0D4C8A;
 }
 
+.background-botones2 {
+  background-color: #0D4C8A;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -70,5 +74,9 @@ body {
 
 .carousel-item p {
   font-size: 1.5rem;
+}
+
+.formulario {
+  border-radius: .5rem;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -33,3 +33,7 @@ body {
 .color-botones2 {
     color: map-get($colores, botones2);
 }
+
+.background-botones2 {
+    background-color: map-get($colores, botones2);
+}
