@@ -30,6 +30,11 @@ body {
         width: 100%;
         opacity: 70%;
     }
+    @media (min-width: 300px) and (max-width: 600px) {
+        img {
+            height: 180px;
+        }
+    }
     .fuente-titulos-bold {
         font-size: 3rem;
     }
@@ -40,4 +45,46 @@ body {
 
 .formulario {
     border-radius: .5rem;
+    .boton-enviar {
+        border: none;
+        border-radius: .5rem;
+    }
+    .boton-enviar:hover {
+        background-color: #0A233D;
+    }
+}
+
+.header-estrenos {
+    height: 5rem;
+    background-image: linear-gradient(#032C55, black);
+    p {
+        font-size: 2rem;
+    }
+}
+
+.galeriaImagen {
+    height: 300px;
+}
+
+.card {
+    background-image: linear-gradient(#032C55, black);
+}
+
+
+/*-------------------precios.html-----------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------*/
+
+.contenedorPrecios {
+    .header-precios2d {
+        @extend .header-estrenos;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    img {
+        height: 200px;
+    }
+    .header-precios3d {
+        @extend .header-precios2d;
+    }
 }
