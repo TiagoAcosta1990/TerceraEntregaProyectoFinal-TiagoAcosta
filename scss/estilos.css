@@ -99,13 +99,13 @@ body {
   background-color: #0A233D;
 }
 
-.header-estrenos, .contenedorPrecios .header-precios2d, .contenedorPrecios .header-precios3d {
+.header-estrenos, .contenedorPrecios .header-precios2d, .contenedorPrecios .header-precios3d, .header-salas {
   height: 5rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#032C55), to(black));
   background-image: linear-gradient(#032C55, black);
 }
 
-.header-estrenos p, .contenedorPrecios .header-precios2d p, .contenedorPrecios .header-precios3d p {
+.header-estrenos p, .contenedorPrecios .header-precios2d p, .contenedorPrecios .header-precios3d p, .header-salas p {
   font-size: 2rem;
 }
 
@@ -130,7 +130,7 @@ body {
   height: 200px;
 }
 
-/*-------------------formulario.html-----------------------------------------------------------------------
+/*-------------------contacto.html-----------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------*/
 .contenedorContacto img {
@@ -177,5 +177,12 @@ body {
 .contenedorPromociones_2 {
   background-color: #0A233D;
   border: solid #e4c412;
+}
+
+/*-------------------salas.html-----------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------*/
+.contenedorSalas img {
+  height: 250px;
 }
 /*# sourceMappingURL=estilos.css.map */
