@@ -133,6 +133,17 @@ body {
 /*-------------------formulario.html-----------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------*/
+.contenedorContacto img {
+  height: 250px;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+  .contenedorContacto img {
+    height: 100px;
+    width: 100%;
+  }
+}
+
 @media (min-width: 300px) and (max-width: 600px) {
   .formulario .row {
     display: block;
