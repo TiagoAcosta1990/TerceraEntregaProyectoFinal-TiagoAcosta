@@ -39,6 +39,10 @@ body {
   background-color: #0D4C8A;
 }
 
+.background-botones3 {
+  background-color: #033261;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -137,5 +141,30 @@ body {
 
 .formulario p {
   font-size: 1.5rem;
+}
+
+.formulario .boton-enviar {
+  border-radius: .5rem;
+  text-decoration: none;
+}
+
+.headerPromociones {
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#1d1b1b));
+  background-image: linear-gradient(black, #1d1b1b);
+}
+
+.headerPromociones p {
+  font-size: 2rem;
+}
+
+.contenedorPromociones_itau, .contenedorPromociones_3 {
+  background-color: #032C55;
+  border: solid #e4c412;
+}
+
+.contenedorPromociones_2 {
+  background-color: #0A233D;
+  border: solid #e4c412;
 }
 /*# sourceMappingURL=estilos.css.map */
