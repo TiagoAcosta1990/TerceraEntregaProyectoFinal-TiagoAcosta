@@ -125,4 +125,17 @@ body {
 .contenedorPrecios img {
   height: 200px;
 }
+
+/*-------------------formulario.html-----------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------*/
+@media (min-width: 300px) and (max-width: 600px) {
+  .formulario .row {
+    display: block;
+  }
+}
+
+.formulario p {
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=estilos.css.map */

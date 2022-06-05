@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="scss/estilos.css">
-    <title>Precios</title>
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -45,143 +45,55 @@
             </div>
         </div>
     </nav>
-    <main class="contenedorPrecios">
-        <header class="header-precios2d">
-            <p class="fuente-titulos color-blanco text-center py-2">Precios Sala 2D</p>
-        </header>
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col">Días</th>
-                    <th scope="col">Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">De Lunes a Jueves</th>
-                    <td>$300</td>
-                </tr>
-                <tr>
-                    <th scope="row">Viernes a Domingo</th>
-                    <td>$350</td>
-                </tr>
-                <tr>
-                    <th scope="row">Funciones Preestreno</th>
-                    <td colspan="2">$370</td>
-                </tr>
-            </tbody>
-        </table>
-        <img class="rounded mx-auto d-block" src="imagenes/preciosSala1.jpg" alt="Sala 2d">
-        <header class="header-precios3d">
-            <p class="fuente-titulos color-blanco text-center py-2">Precios Sala 3D</p>
-        </header>
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col">Días</th>
-                    <th scope="col">Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">De Lunes a Jueves</th>
-                    <td>$350</td>
-                </tr>
-                <tr>
-                    <th scope="row">Viernes a Domingo</th>
-                    <td>$400</td>
-                </tr>
-                <tr>
-                    <th scope="row">Funciones Preestreno</th>
-                    <td colspan="2">$440</td>
-                </tr>
-            </tbody>
-        </table>
-        <img class="rounded mx-auto d-block" src="imagenes/cine3d.jpg" alt="Sala 3d">
-        <header class="header-precios3d">
-            <p class="fuente-titulos color-blanco text-center py-2">Snacks</p>
-        </header>
-        <img src="imagenes/imagenCombo.png" alt="Sala 3d">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col">Snack</th>
-                    <th scope="col">Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Pop Regular</th>
-                    <td>$150</td>
-                </tr>
-                <tr>
-                    <th scope="row">Pop Grande</th>
-                    <td>$200</td>
-                </tr>
-                <tr>
-                    <th scope="row">Papas Pequeñas</th>
-                    <td colspan="2">$65</td>
-                </tr>
-                <tr>
-                    <th scope="row">Papas Grandes</th>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <th scope="row">Maní Pequeño</th>
-                    <td>$60</td>
-                </tr>
-                <tr>
-                    <th scope="row">Maní Grande</th>
-                    <td>$140</td>
-                </tr>
-                <tr>
-                    <th scope="row">Refresco Mediano</th>
-                    <td>$120</td>
-                </tr>
-                <tr>
-                    <th scope="row">Refresco Grande</th>
-                    <td>$150</td>
-                </tr>
-                <tr>
-                    <th scope="row">Agua Mineral</th>
-                    <td>$100</td>
-                </tr>
-            </tbody>
-        </table>
-        <header class="header-precios3d">
-            <p class="fuente-titulos color-blanco text-center py-2">Combos</p>
-        </header>
-        <img class="rounded mx-auto d-block mb-4" src="imagenes/pop2.jpg" alt="Sala 3d">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col">Combo</th>
-                    <th scope="col">Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Pack Individual</th>
-                    <td>$500</td>
-                </tr>
-                <tr>
-                    <th scope="row">Pack Para 2</th>
-                    <td>$700</td>
-                </tr>
-                <tr>
-                    <th scope="row">MVD Regular</th>
-                    <td colspan="2">$250</td>
-                </tr>
-                <tr>
-                    <th scope="row">MVD Grande</th>
-                    <td>$300</td>
-                </tr>
-                <tr>
-                    <th scope="row">Super MVD</th>
-                    <td>$400</td>
-                </tr>
-            </tbody>
-        </table>
+    <main class="contenedorContacto">
+        <div class="formulario bg-gradient bg-primary bg-opacity-75 background-botones2 p-4 col-lg-6 col-sm-10 my-5">
+            <form class="formulario" action="contacto.html" method="POST" enctype="multipart/form-data">
+                <p class="fuente-titulos color-blanco text-center">Completa tus datos:</p>
+                <div class="row p-3">
+                    <div class="col mb-2">
+                        <input type="text" class="form-control" placeholder="Tu Nombre Aquí" aria-label="Nombre">
+                    </div>
+                    <div class="col mb-2">
+                        <input type="text" class="form-control" placeholder="Tu Apellido Aquí" aria-label="Apellido">
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col mb-2">
+                        <input type="tel" class="form-control" placeholder="Tu Teléfono Aquí" aria-label="Nombre">
+                    </div>
+                    <div class="col mb-2">
+                        <input type="emal" class="form-control" placeholder="Tu E-Mail Aquí" aria-label="Apellido">
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col mb-2">
+                        <input type="text" class="form-control" placeholder="Tu Domicilio Aquí" aria-label="Domicilio">
+                    </div>
+                    <div class="col mb-2">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Ciudad</option>
+                            <option value="1">Artigas</option>
+                            <option value="2">Canelones</option>
+                            <option value="3">Durazno</option>
+                            <option value="4">Florida</option>
+                            <option value="5">Lavalleja</option>
+                            <option value="6">Maldonado</option>
+                            <option value="7">Montevideo</option>
+                            <option value="8">Paysandú</option>
+                            <option value="9">Rivera</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Tu Consulta Aquí</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <div class="boton-enviar">
+
+                </div>
+            </form>
+        </div>
+
     </main>
 
     <section class="footer">
@@ -192,7 +104,7 @@
                         <a class="nav-link color-blanco" aria-current="true" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active color-blanco" href="precios.html">Precios</a>
+                        <a class="nav-link color-blanco" href="precios.html">Precios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link color-blanco" href="#">Nuestras Salas</a>
@@ -214,6 +126,15 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 </body>
 
