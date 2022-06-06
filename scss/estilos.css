@@ -67,7 +67,7 @@ body {
 }
 
 .carousel-item img {
-  height: 480px;
+  height: 520px;
   width: 100%;
   opacity: 70%;
 }
@@ -169,7 +169,7 @@ body {
   font-size: 2rem;
 }
 
-.contenedorPromociones_itau, .contenedorPromociones_3 {
+.contenedorPromociones_itau, .contenedorPromociones_3, .contenedorCartelera .footer-pelicula {
   background-color: #032C55;
   border: solid #e4c412;
 }
@@ -184,5 +184,16 @@ body {
 ----------------------------------------------------------------------------------------------------*/
 .contenedorSalas img {
   height: 250px;
+}
+
+/*-------------------cartelera.html-----------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------*/
+.contenedorCartelera img {
+  height: 400px;
+}
+
+.contenedorCartelera .footer-pelicula {
+  padding: .5rem;
 }
 /*# sourceMappingURL=estilos.css.map */
