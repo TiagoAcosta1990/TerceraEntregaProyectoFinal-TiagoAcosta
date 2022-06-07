@@ -111,6 +111,14 @@ body {
 
 .galeriaImagen {
   height: 300px;
+  width: 200px;
+  -webkit-transition: height .5s, width .5s;
+  transition: height .5s, width .5s;
+}
+
+.galeriaImagen:hover {
+  height: 330px;
+  width: 230px;
 }
 
 .card {
